@@ -1,4 +1,4 @@
-# Absolem-s_prompt
+#Prompt_of_Absolem
 A web-based application that generates a selected number of jobs/experiences and generates a resume of those things
 
 Useful for people who have a wide variety of fields they want to apply to
