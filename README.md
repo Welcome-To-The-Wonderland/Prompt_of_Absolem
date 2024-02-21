@@ -12,3 +12,7 @@ Note:
   - CSV imports using PapaParse
   - PDF export using jspdf and html2canvas
   - CSV export (use vanilla ?)
+
+Learning process: 
+  1. https://nextjs.org/learn/react-foundations
+  2. https://nextjs.org/learn/dashboard-app
