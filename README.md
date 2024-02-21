@@ -9,4 +9,6 @@ Feature list:
 
 
 Note: 
-  - CSV imports 
+  - CSV imports using PapaParse
+  - PDF export using jspdf and html2canvas
+  - CSV export (use vanilla ?)
