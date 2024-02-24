@@ -6,6 +6,7 @@ Feature list:
   - "categorize" specific chunks with labels
   - Upload / export CSV to save data
   - Hold info in cache so you can use it later
+  - Different resume templates
 
 
 Note: 
