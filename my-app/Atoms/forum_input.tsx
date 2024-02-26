@@ -1,3 +1,7 @@
+//used for component Form
+//create a text input field
+
+
 interface defineProps {
     placeholder: string;
     type: string;

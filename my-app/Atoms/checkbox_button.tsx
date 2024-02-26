@@ -1,3 +1,6 @@
+//used for component Form
+//create a checkbox input field
+
 interface defineProps{
     onChange: () => void;
     checked?: boolean;
