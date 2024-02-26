@@ -1,8 +1,8 @@
+
 import Form from "@/Molecules/name_forum_item";
 
 
 export default function Home() {
-  
   return (
     <div style={styles.outerContainer}>
       {/* header Section */}

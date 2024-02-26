@@ -1,6 +1,14 @@
-export function FormCheckbox ()  {
+interface defineProps{
+    onChange: () => void;
+    checked?: boolean;
+
+}
+export function FormCheckbox ({ onChange, checked } : defineProps)  {
     return (
-        <input style = {styles.checkbox} type="checkbox"
+        <input style = {styles.checkbox} 
+        type="checkbox"
+        onChange={onChange}
+        checked={checked}
         />
     );
 }
