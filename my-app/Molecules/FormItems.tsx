@@ -1,6 +1,6 @@
 'use client'
-import FormInput from "@/Atoms/forum_input";
-import FormCheckbox from "@/Atoms/checkbox_button";
+import FormInput from "@/Atoms/FormInput";
+import FormCheckbox from "@/Atoms/Checkbox";
 import React, {useState} from "react";
 
 // you can utilize this by declaring what the input type is as well as what 
@@ -33,9 +33,7 @@ const styles = {
     form: {
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
         alignItems: "center",
-        padding: "10px",
     },
 }
 
