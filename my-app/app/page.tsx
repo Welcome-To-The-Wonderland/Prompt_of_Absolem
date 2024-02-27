@@ -22,7 +22,11 @@ export default function Home() {
   return (
     <div style={styles.outerContainer}>
       <div>
-        {/* Header content here */}
+        {/* Header content here 
+          - need FAQ
+          - need settings button
+          - need search bar so we can search labels
+        */}
       </div>
       <div>
         <SectionName name="Name" />
@@ -45,4 +49,5 @@ const styles = {
   outerContainer: {
     textAlign: "center",
   },
+
 };
