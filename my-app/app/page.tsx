@@ -1,7 +1,6 @@
 
 import Form from "@/Molecules/name_forum_item";
 
-
 export default function Home() {
   return (
     <div style={styles.outerContainer}>
@@ -23,8 +22,17 @@ export default function Home() {
             <Form type="url" placeholder="Website" />
           </div>
       </div>
+
+      {/* education section  */}
+      <div>
+          <h1>Education</h1>
+
+      </div>
+      {/* experience section */}
+
+      {/* skills section */}
       
-      <p>output</p>
+      <p>bottom</p>
     </div>
   );
 }
