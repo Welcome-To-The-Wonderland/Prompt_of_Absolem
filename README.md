@@ -4,6 +4,7 @@ A web-based application that generates a selected number of jobs/experiences and
 Useful for people who have a wide variety of fields they want to apply to
 Feature list: 
   - "categorize" specific chunks with labels
+      - I should be able to select or deselect a full category as I desire
   - Upload / export CSV to save data
   - Hold info in cache so you can use it later
   - Different resume templates
