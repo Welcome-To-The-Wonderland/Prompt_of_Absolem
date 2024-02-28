@@ -29,6 +29,7 @@ Toggleable: deselected should be greyed out
       - Settings
             - Import
             - Export
+  2. Everything below (sections 3 - 12) should be forms
   3. Name section
       - Name
       - Phone number
@@ -51,6 +52,9 @@ Toggleable: deselected should be greyed out
      - Prolly just an array?
      - On key press "enter", the input is segmented as a "label" 
   9. Skills section
-  10. Labels
+      - Either just a text area or maybe find a way to store each individual string in an array?
+      - User hits "enter" and that's considered a single string
+  11. Labels
      - Click and it opens an <input> type=text
      - hit enter and it creates "label" that can be searched for, let's you continue typing and hit enter again
+  12. Will probably need a submit button
