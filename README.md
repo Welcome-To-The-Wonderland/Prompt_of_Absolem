@@ -12,7 +12,7 @@ Feature list:
 
 Note: 
   - CSV imports using PapaParse
-  - PDF export using jspdf and html2canvas
+  - PDF export using jspdf 
   - CSV export (use vanilla ?)
 
 Learning process: 
