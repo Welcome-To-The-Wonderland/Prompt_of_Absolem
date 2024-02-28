@@ -14,8 +14,9 @@ interface defineProps {
     placeholder: string;
 }
 
-export function Form ({ type, placeholder} : defineProps){
+export function Form ({ type, placeholder } : defineProps){
     //toggle the input fields that you want to use
+    
     const [isDisabled, setIsDisabled] = useState(false);
     const toggleDisabled = () => {
         setIsDisabled(!isDisabled);

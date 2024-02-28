@@ -2,22 +2,26 @@
 import React, { useState } from "react";
 import SectionName from "@/Organisms/SectionName";
 import SectionEducation from "@/Organisms/SectionEducation";
+import Section from "@/Organisms/Section";
 
 export default function Home() {
-  // State to keep track of SectionEducation instances with unique IDs
-  const [educationSections, setEducationSections] = useState([{ id: 1 }]);
-  const [nextId, setNextId] = useState(2); // Counter for the next unique ID
+  const [SectionName, setSectionName] = useState([
+    { type: 'email', placeholder: 'Email' },
+    { type: 'tel', placeholder: 'Phone Number' },
+    { type: 'url', placeholder: 'LinkedIn' },
+    { type: 'url', placeholder: 'Github' },
+    { type: 'url', placeholder: 'Website' },
+  ]);
 
-  // Function to add another SectionEducation instance
-  const addEducationSection = () => {
-    setEducationSections([...educationSections, { id: nextId }]);
-    setNextId(nextId + 1); // Increment the ID for the next new item
-  };
-
-  // Function to remove a specific SectionEducation instance by ID
-  const removeEducationSection = (idToRemove) => {
-    setEducationSections(educationSections.filter(section => section.id !== idToRemove));
-  };
+  const [SectionEducation, setSectionEducation] = useState([
+    { type: 'text', placeholder: 'School Name' },
+    { type: 'text', placeholder: 'Location' },
+    { type: 'text', placeholder: 'Degree' },
+    { type: 'text', placeholder: 'Start Date' },
+    { type: 'text', placeholder: 'End Date' },
+    { type: 'number', placeholder: 'GPA' },
+    { type: 'text', placeholder: 'relevant coursework' },
+  ]);
 
   return (
     <div style={styles.outerContainer}>
@@ -29,15 +33,8 @@ export default function Home() {
         */}
       </div>
       <div>
-        <SectionName name="Name" />
-        {educationSections.map((section, index) => (
-          <div key={section.id}>
-            {/* Dynamically generate the name based on the position in the array */}
-            <SectionEducation name={`Education ${index + 1}`} />
-            <button onClick={() => removeEducationSection(section.id)} disabled={educationSections.length === 1}>Remove</button>
-          </div>
-        ))}
-        <button onClick={addEducationSection}>Add Education</button>
+        <Section formFields={SectionName} name="Name" />
+        <Section formFields={SectionEducation} name="Education" />
         {/* Other sections */}
       </div>
       <p>bottom</p>

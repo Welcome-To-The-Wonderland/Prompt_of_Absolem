@@ -6,7 +6,7 @@ interface defineProps{
     checked?: boolean;
 
 }
-export function FormCheckbox ({ onChange, checked } : defineProps)  {
+export function FormCheckbox ({ onChange, checked} : defineProps)  {
     return (
         <input style = {styles.checkbox} 
         type="checkbox"
