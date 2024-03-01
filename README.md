@@ -16,8 +16,9 @@ Note:
   - CSV export (use vanilla ?)
 
 Learning process: 
-  1. https://nextjs.org/learn/react-foundations
-  2. https://nextjs.org/learn/dashboard-app
+  1. https://nextjs.org/learn/react-foundations (done)
+  2. https://nextjs.org/learn/dashboard-app (done)
+  3. https://www.youtube.com/watch?v=tIdNeoHniEY
 
 Notes for structures: 
 Toggleable: deselected should be greyed out
