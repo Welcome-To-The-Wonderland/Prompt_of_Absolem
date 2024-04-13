@@ -10,7 +10,7 @@ Feature list:
   - Different resume templates
 
 Version 1.1 Feature list: 
-  - use redis for data retrieval to mimic a cache using c++
+  - use redis for data retrieval to mimic a set associative cache (since it's the most flexible) using c++
       - https://build-your-own.org/redis/
 
 
