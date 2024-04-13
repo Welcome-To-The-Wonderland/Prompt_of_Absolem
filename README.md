@@ -9,6 +9,10 @@ Feature list:
   - Hold info in cache so you can use it later
   - Different resume templates
 
+Version 1.1 Feature list: 
+  - use redis for data retrieval to mimic a cache using c++
+      - https://build-your-own.org/redis/
+
 
 Note: 
   - CSV imports using PapaParse
